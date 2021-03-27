@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/Coding/Hydro/SDK/AssImp/cmake-modules/FindRT.cmake
+E:/Coding/Hydro/SDK/AssImp/code/CMakeLists.txt
+E:/Programs/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+E:/Programs/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake

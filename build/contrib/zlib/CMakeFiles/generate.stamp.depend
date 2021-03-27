@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+E:/Coding/Hydro/SDK/AssImp/contrib/zlib/CMakeLists.txt
+E:/Coding/Hydro/SDK/AssImp/contrib/zlib/zconf.h.cmakein
+E:/Coding/Hydro/SDK/AssImp/contrib/zlib/zlib.pc.cmakein
+E:/Programs/CMake/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+E:/Programs/CMake/share/cmake-3.18/Modules/CheckFunctionExists.cmake
+E:/Programs/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake
+E:/Programs/CMake/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake
+E:/Programs/CMake/share/cmake-3.18/Modules/CheckTypeSize.cmake

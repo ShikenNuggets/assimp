@@ -183,14 +183,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="$(SolutionDir)SDK\AssImp\contrib\zlib\trees.h" />
     <ClInclude Include="$(SolutionDir)SDK\AssImp\contrib\zlib\zutil.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="$(SolutionDir)SDK\AssImp\build\ZERO_CHECK.vcxproj">
-      <Project>{D3D236CC-9778-3CCF-B332-2D2CF48E44F6}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

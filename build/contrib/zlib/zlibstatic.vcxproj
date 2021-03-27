@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PreferredToolArchitecture>
-    </PreferredToolArchitecture>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -16,7 +15,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{416B6E21-1B18-39F1-BDAA-BDE9725E7FDB}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>zlibstatic</ProjectName>
@@ -42,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)Build\$(ProjectName)\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)Build\temp\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlib</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Coding\Hydro\SDK\AssImp\build\contrib\zlib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlibstatic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zlibstaticd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)Build\$(ProjectName)\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)Build\temp\$(ProjectName)\$(Configuration)\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlib</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Coding\Hydro\SDK\AssImp\build\contrib\zlib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlibstatic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zlibstatic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDK\AssImp\build\include;$(SolutionDir)SDK\AssImp\build;$(SolutionDir)SDK\AssImp\include;$(SolutionDir)SDK\AssImp\code;$(SolutionDir)SDK\AssImp\.;$(SolutionDir)SDK\AssImp\contrib\zlib;$(SolutionDir)SDK\AssImp\build\contrib\zlib;$(SolutionDir)SDK\AssImp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Coding\Hydro\SDK\AssImp\build\include;E:\Coding\Hydro\SDK\AssImp\build;E:\Coding\Hydro\SDK\AssImp\include;E:\Coding\Hydro\SDK\AssImp\code;E:\Coding\Hydro\SDK\AssImp\.;E:\Coding\Hydro\SDK\AssImp\contrib\zlib;E:\Coding\Hydro\SDK\AssImp\build\contrib\zlib;E:\Coding\Hydro\SDK\AssImp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -71,7 +70,6 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -91,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDK\AssImp\build\include;$(SolutionDir)SDK\AssImp\build;$(SolutionDir)SDK\AssImp\include;$(SolutionDir)SDK\AssImp\code;$(SolutionDir)SDK\AssImp\.;$(SolutionDir)SDK\AssImp\contrib\zlib;$(SolutionDir)SDK\AssImp\build\contrib\zlib;$(SolutionDir)SDK\AssImp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Coding\Hydro\SDK\AssImp\build\include;E:\Coding\Hydro\SDK\AssImp\build;E:\Coding\Hydro\SDK\AssImp\include;E:\Coding\Hydro\SDK\AssImp\code;E:\Coding\Hydro\SDK\AssImp\.;E:\Coding\Hydro\SDK\AssImp\contrib\zlib;E:\Coding\Hydro\SDK\AssImp\build\contrib\zlib;E:\Coding\Hydro\SDK\AssImp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4131;4127;4244</DisableSpecificWarnings>
@@ -109,7 +107,6 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -185,6 +182,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\Coding\Hydro\SDK\AssImp\contrib\zlib\inftrees.h" />
     <ClInclude Include="E:\Coding\Hydro\SDK\AssImp\contrib\zlib\trees.h" />
     <ClInclude Include="E:\Coding\Hydro\SDK\AssImp\contrib\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Coding\Hydro\SDK\AssImp\build\ZERO_CHECK.vcxproj">
+      <Project>{D3D236CC-9778-3CCF-B332-2D2CF48E44F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
